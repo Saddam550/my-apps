@@ -1,0 +1,51 @@
+.sideberStyle {
+    position: fixed;
+    height: 100%;
+}
+
+.sidebermin {
+    width: 200px;
+    height: 100%;
+}
+
+.FbSideBer {
+    text-align: left;
+    margin: 5px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.FbSideBer .FbFriend {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1% 0;
+    transition: .2s;
+}
+
+.FbSideBer .FbFriend .friend {
+    padding: 0 10px;
+
+}
+
+
+
+.FbSideBer .FbFriend .friend {
+    color: rgb(58, 56, 56);
+}
+
+.FbSideBer .FbFriend .titleName {
+    color: rgb(58, 56, 56);
+}
+
+.FbSideBer .FbFriend:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.FbSideBer .FbFriend:hover .friend {
+    color: rgb(0, 16, 247);
+}
+
+.FbSideBer .FbFriend:hover .titleName {
+    color: rgb(0, 16, 247);
+}

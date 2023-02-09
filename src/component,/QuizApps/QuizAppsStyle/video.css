@@ -1,0 +1,30 @@
+.AllVideo {
+    display: flex;
+    padding: 91px;
+    flex-wrap: wrap;
+}
+
+.videos {
+    background: #0000000d;
+    border: 1px solid silver;
+    margin: 5px;
+    width: 322px;
+}
+
+.videos a {
+    text-decoration: none;
+    color: hotpink;
+    text-align: left;
+
+}
+
+.video .image {
+    width: 318px;
+    height: 300px;
+    margin: auto;
+}
+
+.video .image img {
+    width: 100%;
+    height: 100%;
+}

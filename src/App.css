@@ -1,0 +1,1469 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+div#root {
+    /* background: black; */
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #0011ff;
+}
+
+input {
+    background: #ffffff;
+    padding: 3px 10px;
+    outline: none;
+    border: 1px solid darkblue;
+    text-align: left;
+    display: block;
+    height: 28px;
+    width: 319px;
+    font-size: 19px;
+    color: rgb(8, 4, 4);
+    border-radius: 9px;
+}
+
+ul.nev-ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.nev {
+    background: #312068;
+}
+
+ul.nev-ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .textConvator {
+    background: #161648;
+} */
+
+textarea#myBox {
+    font-size: 15px;
+}
+
+nav {
+    background: #941048;
+    /* margin-bottom: 4%; */
+}
+
+ul.naverUl li {
+    display: inline-block;
+    z-index: 10;
+    background: #340519;
+    margin: 10px;
+    width: 153px;
+    border: 1px solid #312068;
+
+}
+
+ul.naverUl li a:hover {
+    transition: all 0.3s;
+    background: #312068;
+    border: 1px solid #312068;
+    cursor: pointer;
+
+
+}
+
+ul.naverUl li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+ul.naverUl {
+    /* display: flex; */
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+
+/*RejultForms  ====== Rejult Shit Componemts  */
+
+.studentBody {
+    background: linear-gradient(125deg, #c02c4c, #151449);
+    padding: 38px;
+    margin: -45px 0px;
+
+}
+
+.RejultHadding {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 14px;
+    text-align: center;
+}
+
+div.RejultForms {
+    background: rgb(22, 10, 65);
+    width: 459px;
+    height: 293px;
+    margin: auto;
+    border-radius: 22px;
+    margin-bottom: 31px;
+}
+
+
+
+input#name,
+input#RollNumber,
+input#RgnNumber {
+    background: #2b1515;
+    padding: 3px 10px;
+    outline: none;
+    border: 1px solid darkblue;
+    margin: 25px;
+    text-align: left;
+    display: block;
+    height: 28px;
+    width: 319px;
+    font-size: 19px;
+    color: white;
+    border-radius: 9px;
+}
+
+input#name:focus {
+    border: 1px solid skyblue;
+}
+
+input#RollNumber:focus {
+    border: 1px solid skyblue;
+}
+
+input#RgnNumber:focus {
+    border: 1px solid skyblue;
+}
+
+button {
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 6px 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .1s;
+    border: 1px solid darkblue;
+    border-radius: 9px;
+}
+
+button:hover {
+
+    background: rgb(35, 11, 58);
+
+}
+
+/* Rejult Show Subjuct And Value */
+table.rejultList {
+    width: 492px;
+    margin: auto;
+}
+
+table.rejultList td {
+    background: rebeccapurple;
+    padding: 6px 18px;
+    list-style: none;
+    text-align: left;
+    user-select: none;
+}
+
+
+tr.studentInfo td {
+    background: tomato;
+    padding: 5px;
+    user-select: auto;
+}
+
+tr.Sng td {
+    background: darkgreen;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+/* drop Down buttons  */
+ul.AllApps {
+    position: absolute;
+    margin: 36px -19px;
+    background: #941048;
+    transform: scaleY(0);
+    transform-origin: top;
+    visibility: hidden;
+    transition: all .3s;
+    width: 159px;
+
+}
+
+ul.AllApps li {
+    margin: 2px;
+}
+
+ul.AllApps li a {
+    width: 100%;
+    height: 100%;
+}
+
+ul.AllApps li a:hover {
+    background: #570c1c;
+}
+
+li.drop li.DropTwo {
+    width: 110px;
+    height: 35px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+li.drop:hover ul.AllApps {
+    transform: scaleY(1);
+    transform-origin: top;
+    visibility: visible;
+    transition: all .3s;
+}
+
+
+
+/* drop Down buttons step two */
+ul.TwoStep {
+    margin: -425.3px 0px 0px 143px;
+    position: absolute;
+    background: #941048;
+}
+
+.TwoStep {
+    transform: scaleY(0);
+    transform-origin: top;
+    visibility: hidden;
+    transition: all .3s;
+    width: 159px;
+}
+
+.DropTwo:hover ul.TwoStep {
+    transform: scaleY(1);
+    transform-origin: top;
+    visibility: visible;
+    transition: all .3s;
+}
+
+/* message Box scroll style  */
+.messageScrollStyle::-webkit-scrollbar {
+    background: linear-gradient(skyblue, blue);
+    color: red;
+    cursor: pointer;
+    width: 12px;
+
+
+}
+
+
+.messageScrollStyle::-webkit-scrollbar-thumb {
+    background: linear-gradient(blue, skyblue);
+    border: 1px solid transparent;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+.calculatorBody .valueBox {
+    text-align: right;
+    width: 200px;
+    height: 29px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    outline: none;
+    user-select: none;
+    cursor: grab;
+}
+
+
+
+.calculatorBody {
+    background: red;
+    width: 212px;
+    height: auto;
+    margin: auto;
+}
+
+.calculatorbutton {
+    padding: 8px 3px;
+    user-select: none;
+}
+
+.calculatorbutton input[type="button"] {
+    background: rgb(0, 0, 0);
+    width: 48px;
+    height: 48px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 1px;
+    cursor: pointer;
+    transition: all .2s;
+    user-select: none;
+    display: inline;
+
+}
+
+.calculatorbutton input[type="button"]:hover {
+    background: rgb(7, 12, 59);
+    color: skyblue;
+}
+
+
+.BlurryImg {
+    padding: 1px;
+    transition: all 0.6s;
+
+
+
+}
+
+.BlurryImg:hover {
+    cursor: pointer;
+    transition: all 0.6s;
+    transform: scale(1.2);
+
+}
+
+.show {
+    overflow: hidden;
+    background: darkred;
+    margin: 10px;
+}
+
+.allP {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: space-around;
+
+}
+
+button.seeMoreBtn {
+    position: fixed;
+    right: 22px;
+    bottom: 44px;
+}
+
+.colorPikkerBody {
+    background: darkblue;
+    width: 437px;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.colorbox {
+    width: 100%;
+    height: 110px;
+    background: white;
+}
+
+.ScrollColor {
+    display: flex;
+    flex-wrap: wrap;
+    background: red;
+    width: 100%;
+    padding: 10px;
+
+
+
+}
+
+
+
+/* Drink Woter Template Start  =====================================================*/
+
+.bg {
+    background: #244c6e;
+    margin: -45px 0px;
+}
+
+.headers {
+    padding: 45px 0px;
+}
+
+.headerBg {
+    background-image: url(./component,/appsComponent/allValue/pic/headers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    border-top-right-radius: 59px;
+    border-bottom-left-radius: 60px;
+    padding-top: 20px;
+    box-shadow: 0px 27px 46px -27px #000000fc;
+}
+
+.headerTextArea {
+    display: inline-block;
+    text-align: left;
+    margin: 40px;
+    padding: 52px;
+    margin-bottom: 0%;
+}
+
+.headerTextArea .headerTitle {
+    color: black;
+    font-size: 31px;
+}
+
+
+
+.headerTextArea .headerPra {
+    color: black;
+    font-size: 17px;
+}
+
+.headerBtnArea {
+    display: inline-block;
+    text-align: left;
+    margin: 40px;
+    margin-top: 0px;
+    padding: 52px;
+}
+
+button.headerOrderBtn {
+    background: #3082d5;
+}
+
+button.headerContactBtn {
+    background: #090f56;
+}
+
+button.headerOrderBtn:hover {
+
+    background: #090f56;
+}
+
+button.headerContactBtn:hover {
+    background: #3082d5;
+}
+
+button.headerOrderBtn,
+button.headerContactBtn {
+    margin: 0px 10px;
+    margin-left: 0px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
+
+.nameTitle {
+    color: skyblue;
+}
+
+
+.names {
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: aqua;
+    text-decoration-skip-ink: none;
+    /* text-decoration-thickness: from-font; */
+}
+
+
+
+
+.aboutValues {
+    display: flex;
+}
+
+.valuesAll {
+    text-align: left;
+    display: inline-block;
+    padding: 0px 128px;
+    width: 775px;
+}
+
+.fastPra {
+    font-size: 23px;
+    color: #2e8bff;
+    margin-bottom: 10px;
+}
+
+
+.secentPra {
+    margin-bottom: 11px;
+    font-size: 18px;
+}
+
+.tharPra {
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+button.aboutBtn {
+    background: #3082d5;
+}
+
+button.aboutBtn:hover {
+
+    background: #090f56;
+}
+
+.videoBtnBg {
+
+    background-image: url(./component,/appsComponent/allValue/pic/news-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 248px;
+    height: 138px;
+}
+
+.videoBtnAnimation {
+    background: tomato;
+    width: 31px;
+    height: 31px;
+    border-radius: 100px;
+    margin: 55px 109px;
+    cursor: pointer;
+}
+
+.videoBtnAnimation {
+    animation: amiB 2s infinite;
+
+}
+
+.videoBtnIcon {
+    width: 31px;
+    height: 30px;
+    color: #ffffff;
+    padding: 6px 5px;
+    text-decoration: none;
+
+
+}
+
+
+@keyframes amiB {
+    0% {
+        box-shadow: 0 0 0 0 #191dfff7, 0 0 0 0 #5f33ffd9;
+    }
+
+    40% {
+        box-shadow: 0 0 0 10px #4c00ff36, 0 0 0 0 #0011ff;
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px #1100ff40, 0 0 0 10px #1500d140;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #0026fff2, 0 0 0 10px #00029400;
+    }
+}
+
+
+
+
+
+.iconBox {
+    display: flex;
+    padding: 24px 75px;
+    padding-top: 71px;
+}
+
+.woterDreamText,
+.woterDeleverText,
+.woterManyText,
+.woterFishText {
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.hoverColor:hover .text {
+
+    color: tomato;
+    transition: all 0.3s;
+
+}
+
+p.icon {
+    color: blue;
+    font-size: 47px;
+}
+
+
+
+.sectionThere {
+    display: flex;
+    margin: auto;
+    padding: 24px 36px;
+}
+
+.imageArea {
+    width: 100%;
+}
+
+.imageArea img {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.delevaryTitle span {
+    font-size: 27px;
+}
+
+.delevaryTitle {
+    font-size: 19px;
+}
+
+
+
+
+.delevaryArea {
+    padding: 0px 54px;
+    text-align: left;
+}
+
+.delevaryDcs {
+    margin: 20px 0px;
+}
+
+.delevarylist {
+    margin: 17px;
+}
+
+.delevarylist ul li {
+    list-style: persian;
+    list-style-type: disclosure-closed;
+}
+
+.inputBox {
+    background: white;
+    padding: 7px 16px;
+}
+
+.fromArea {
+    width: 100%;
+}
+
+.fromArea .inputBox input[type="name"] {
+    font-size: 15px;
+    margin: 17px 0px;
+}
+
+
+
+
+.bgbody {
+    background: linear-gradient(181deg, #0f053a, transparent);
+    padding: 34px 0;
+}
+
+.mineralBody {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    justify-content: space-around;
+    margin: 38px 0% 0 0;
+}
+
+.spaseing {
+    margin: 24px 0;
+}
+
+.minerelTitle {
+    font-size: 20px;
+}
+
+
+.minerelName {
+    color: skyblue;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.minerelTDes {
+    font-family: 'FontAwesome';
+    letter-spacing: 1px;
+}
+
+.mineralImg {
+    width: 276px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 275px;
+    animation: aniwoter 5s infinite;
+
+}
+
+@keyframes aniwoter {
+    0% {
+        box-shadow: 0 0 0 20px #ff19790a, 0 0 0 0 #f800c2d9;
+    }
+
+    40% {
+        box-shadow: 0 0 0 23px #ff00806e, 0 0 0 0 #ff00b3;
+    }
+
+    70% {
+        box-shadow: 0 0 0 0px #ff006a50, 0 0 0 30px #d1004615;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #ff006af2, 0 0 0 30px #ff197100;
+    }
+}
+
+.mineralImg img {
+    width: 100%;
+}
+
+
+
+.upDownBTN {
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: all 2s;
+}
+
+.active {
+    transform-origin: right;
+    transform: scaleX(1);
+    display: block;
+}
+
+.ClientBox {
+    margin-bottom: 14px;
+}
+
+.clinetArea {
+    display: flex;
+    margin-top: 36px;
+    padding: 0px 141px;
+}
+
+.clientIfBox {
+    background: white;
+    padding: 44px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clientImgName {
+    display: flex;
+    width: 131px;
+    margin: auto;
+    justify-content: space-around;
+    color: black;
+}
+
+.clientImg {
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 38px;
+}
+
+.clientImg img {
+    width: 100%;
+    height: 41px;
+}
+
+.clientImg:hover {
+    animation: sliderBtn 5s infinite;
+    cursor: pointer;
+}
+
+
+.clintDes {
+    width: 544px;
+    margin: auto;
+    text-align: justify;
+    color: gray;
+    margin-top: 20px;
+}
+
+.clientBio {
+    color: skyblue;
+    font-size: 14px;
+}
+
+.clientName {
+    text-align: left;
+    color: tomato;
+}
+
+
+.priveBtn,
+.nextBtn {
+    margin-top: 116px;
+    background: #ff0505;
+    width: 26px;
+    height: 27px;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+
+
+.priveBtn:hover {
+    background: skyblue;
+    color: #0f053a;
+    animation: sliderBtn 5s infinite;
+
+}
+
+.nextBtn:hover {
+    background: skyblue;
+    color: #0f053a;
+    animation: sliderBtn 5s infinite;
+
+}
+
+@keyframes sliderBtn {
+    0% {
+        box-shadow: 0 0 0 10px #ff19790a, 0 0 0 0 #f800c2d9;
+    }
+
+    40% {
+        box-shadow: 0 0 0 7px #ff00806e, 0 0 0 0 #ff00b3;
+    }
+
+    70% {
+        box-shadow: 0 0 0 0px #ff006a50, 0 0 0 10px #d1004615;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #ff006af2, 0 0 0 10px #ff197100;
+    }
+}
+
+
+
+
+
+.postBG {
+    padding: 42px 50px;
+}
+
+.OurpostItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+
+.cardTextTeft {
+    width: 200px;
+    background: white;
+    border-radius: 5px;
+    margin: 23px 2px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.cardTextTeft:hover {
+    box-shadow: 0px 2px 11px 0px #ffffff91, 0px 5px 17px 0px #030310fc;
+    background: #d32b80f2;
+}
+
+.cardTextTeft img.cardImgTop {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.cardBody {
+    text-align: left;
+    padding: 10px;
+}
+
+h4.cardTitle {
+    color: skyblue;
+}
+
+p.cardText {
+    font-size: 11px;
+    letter-spacing: .4px;
+    font-family: 'OpenSans';
+    color: #4e4d4d;
+}
+
+.CardFoter {
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+}
+
+button.aboutBtn.customizeBtnCard {
+    font-size: 11px;
+    padding: 3px 6px;
+}
+
+.postBG:hover {
+    animation: postAni 5s infinite;
+}
+
+@keyframes postAni {
+    0% {
+        /* box-shadow: 0 0 0 100px #ff19790a, 0 0 0 0 #f800c2d9; */
+        background: #090f56;
+    }
+
+    40% {
+        /* box-shadow: 0 0 0 70px #ff00806e, 0 0 0 0 #ff00b3; */
+        background: #2d3381;
+    }
+
+    70% {
+        /* box-shadow: 0 0 0 0px #ff006a50, 0 0 0 100px #d1004615; */
+        background: rgb(33, 5, 70);
+    }
+
+    100% {
+        /* box-shadow: 0 0 0 0 #ff006af2, 0 0 0 100px #ff197100; */
+        background: #090f56;
+
+    }
+}
+
+
+
+
+
+
+
+.foterMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.webfoter {
+    background: tomato;
+    padding: 34px;
+}
+
+
+
+.webfoter ul li {
+    list-style: none;
+    display: inline-block;
+
+
+    margin: 2px;
+    transition: .3s;
+}
+
+.webfoter ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background: red;
+}
+
+input.foterinput {
+    width: 149px;
+    text-align: center;
+    border: none;
+    color: white;
+    background: red;
+    margin-top: 15px;
+    transition: .3s;
+}
+
+input.foterinput:hover {
+    background: #000000;
+}
+
+.webfoter ul li:hover {
+    background: #0011ff;
+}
+
+p.developerName {
+    padding: 10px 0;
+    background: gray;
+}
+
+/* Drink Woter Template End =====================================================*/
+
+/* Ebook Template start =====================================================*/
+.EbookBG {
+    background: linear-gradient(16deg, #c10b0b 8%, #270962f5 63%);
+    height: 500px;
+    margin-top: -44px;
+    transition: all 2s;
+}
+
+.EbookBG:hover {
+    animation: EbookAni 2s infinite;
+}
+
+@keyframes EbookAni {
+
+    0% {
+        background: linear-gradient(16deg, #c10b0b 8%, #270962f5 63%);
+    }
+
+    40% {
+        background: linear-gradient(64deg, #270962f5 7%, #c10b0b 73%);
+    }
+
+    70% {
+        background: linear-gradient(157deg, #c10b0b 8%, #270962f5 63%);
+    }
+
+    100% {
+        background: linear-gradient(262deg, #c10b0b 8%, #270962f5 63%);
+    }
+}
+
+.bookHeader {
+    padding: 140px 1px 0px 131px;
+}
+
+p.bookCompanyName {
+    font-size: 36px;
+    padding: 9px 0;
+    text-align: left;
+}
+
+p.BCompanyTitle {
+    font-size: 21px;
+    padding: 1px;
+}
+
+p.BCompanyDes {
+    padding: 19px 0;
+    width: 350px;
+}
+
+.bookHeader {
+    text-align: left;
+}
+
+.bookHeader button {
+    background: skyblue;
+    margin: 117px 32px 6px 0px;
+}
+
+.bookCompoment {
+    background: skyblue;
+    padding-top: 66px;
+    color: rgb(255, 50, 14);
+}
+
+.bookCompoment .nameTitle {
+    color: rgb(13, 1, 122);
+}
+
+.flaxBook {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 27px;
+}
+
+.cardTextWhite {
+    width: 250px;
+    background: tomato;
+    padding: 11px;
+    margin: 16px;
+    border-radius: 16px;
+    transition: .3s;
+}
+
+.cardTextWhite:hover {
+    background: rgb(236, 58, 27);
+    border-radius: 0px;
+}
+
+h4.cardTitle.bookname {
+    color: white;
+}
+
+.bookimg {
+    height: 262px;
+    width: 228px;
+    cursor: pointer;
+}
+
+img.cardImgTop {
+    width: 100%;
+    height: 100%;
+}
+
+p.cardText.bookprice {
+    font-size: 17px;
+    margin: 10px 0;
+    color: #0011ff;
+}
+
+button.seeBook {
+    margin: 20px;
+}
+
+
+.imageSimple {
+    width: 470px;
+
+}
+
+
+
+.orderBG {
+    background: skyblue;
+    padding: 34px 0;
+    margin-top: -45px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.titleStyle .nameTitle {
+    color: tomato;
+}
+
+.userInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: 100%; */
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.userInfo td {
+    text-align: left;
+}
+
+.userInfo form {
+    padding: 20px;
+    background: rgb(135, 206, 235);
+    box-shadow: 0px 0px 8px 2px #ffffffe0, 0px 5px 9px 1px #000000f7;
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 419px;
+}
+
+.userInfo tr input[type="name"],
+.userInfo tr input[type="phone"],
+.userInfo tr input[type="email"] {
+    width: 258px;
+    font-size: 15px;
+    border: 1px solid rgb(139, 160, 255);
+}
+
+
+
+.userInfo tr #submitBtn {
+    width: 100px;
+    background: darkblue;
+    text-align: center;
+    margin: auto;
+    transition: .3s;
+    color: white !important;
+    border: none;
+
+}
+
+.userInfo tr #submitBtn a {
+    transition: .3s;
+    color: white !important
+}
+
+.userInfo tr #submitBtn:hover {
+    background: tomato;
+}
+
+.BookNameAndPriceImg {
+    margin: auto;
+    background: #26b7f3;
+    color: tomato;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.BookNameAndPriceImg:hover {
+    background: #13678b;
+
+}
+
+.bookimg {
+    height: 262px;
+    width: 228px;
+}
+
+.BookImg {
+    width: 426px;
+    height: 345px;
+    cursor: pointer;
+}
+
+.BookImg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+a.disboald {
+    display: none;
+}
+
+a.visibold {
+    display: block;
+}
+
+span.spanOrder.disboaldbtn {
+    display: none;
+}
+
+
+
+.bookShow {
+    position: absolute;
+    z-index: 18;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    padding: 10px;
+    background: red;
+    padding-top: 0%;
+    text-align: right;
+}
+
+.bookimgName {
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+
+}
+
+
+.bookimgName img {
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    transition: 0.3s;
+
+}
+
+.bookimgName img:hover {
+    transition: 0.3s;
+    transform: scaleY(2);
+    height: auto;
+}
+
+.close {
+    background: rebeccapurple;
+    display: inline-block;
+    padding: 11px 15px;
+    margin: 0 -10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.close:hover {
+    background: rgb(0, 0, 0);
+}
+
+.close:hover span.rightClose {
+    background: rgb(255, 0, 0);
+}
+
+.close:hover span.leftClose {
+    background: rgb(255, 0, 0);
+}
+
+span.leftClose,
+span.rightClose {
+    width: 3px;
+    height: 17px;
+    background: skyblue;
+    position: fixed;
+    top: 0.3%;
+    transform: rotate(45deg);
+
+}
+
+span.rightClose {
+    transform: rotate(-45deg);
+}
+
+.control {
+    transition: .6s;
+    margin-top: -900px;
+    visibility: hidden;
+
+
+}
+
+.showBookControl {
+    transition: .6s;
+    margin-top: none;
+    visibility: visible;
+}
+
+
+.BGLink:active {
+    background: red;
+}
+
+.BGLink:visited {
+    background: blue;
+}
+
+.BGLink:target {
+    background: yellow;
+}
+
+/* Ebook Template End =====================================================*/
+
+/* imageCarosel  Template start ===================================================== */
+
+
+.carosel {
+    background: blue;
+    padding: 12px 71px;
+}
+
+.imageOverLi {
+    overflow: hidden;
+}
+
+.caroselImg {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    cursor: pointer;
+}
+
+.caroselImg img {
+    width: 100%;
+    height: 100%;
+    margin: 0px 6px;
+}
+
+/* imageCarosel  Template End ===================================================== */
+/* ul.naverUl {
+    display: none;
+} */
+
+.FacebookClone {
+    background: rgb(207, 207, 207);
+    height: 100%;
+
+}
+
+.feed {
+    display: flex;
+}
+
+/* News Site CSS Start  */
+.newsCard {
+    margin: 0% !important;
+}
+
+.newsCard img.card-img-top {
+    height: 270px;
+}
+
+.card.newsCard {
+    padding: 0%;
+    height: 540px;
+    width: 328px;
+    margin: 20px;
+    display: block;
+}
+
+h1.networkLoading {
+    width: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    animation: loading 2s infinite;
+    animation-timing-function: cubic-bezier(0.36, -0.28, 0.32, 1.23);
+
+
+}
+
+@keyframes loading {
+    0% {
+        transition: 2s;
+        width: 90px;
+        color: white;
+    }
+
+    100% {
+        width: 166px;
+        color: #d40051;
+        transition: 2s;
+    }
+
+
+}
+
+/* News Site CSS end  */
+
+
+tr.table-hover {
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 5% 0%;
+}
+
+tr.table-hover td {
+    padding: 11px 0%;
+}
+
+tr.table-hover:hover {
+    background: #ffffff05;
+}
+
+
+.hoverTable:hover {
+    background: rgb(150, 92, 245) !important;
+}

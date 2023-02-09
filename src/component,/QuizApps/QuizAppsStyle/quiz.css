@@ -1,0 +1,150 @@
+.quizpage {
+    background: silver;
+}
+
+/* .quiz-area {
+    background: red;
+} */
+
+
+
+.quiz {
+    width: 90%;
+    background: silver;
+    padding: 20px;
+    text-align: left;
+}
+
+.quizTitle {
+
+    width: 500px;
+}
+
+.quizitem .quizOption {
+    display: inline-block;
+    background: white;
+    margin: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: all .3s;
+    width: 300px;
+    font-family: sans-serif;
+}
+
+.quizitem .quizOption:hover {
+
+    background: rgb(107, 206, 255);
+
+}
+
+
+/* Progresber========================================== component styles */
+
+
+
+.toolkit {
+    width: 93px;
+    height: 29px;
+    background: black;
+    border-radius: 5px;
+    padding: 3px;
+    display: none;
+    position: absolute;
+    top: 72%;
+
+}
+
+.progresbody {
+    background: #001397;
+    margin: 20px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Progresber {
+    background: silver;
+    width: 100%;
+    padding: 10px 0;
+
+
+}
+
+.progres {
+    background: red;
+    width: 38px;
+    height: 5px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+
+
+.progres::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+
+}
+
+
+
+
+
+
+/* CarrentVideo========================================== component styles */
+button.next {
+    width: 95px;
+    background: crimson;
+    margin: 0px 10px;
+    outline: none;
+}
+
+button.next:hover {
+    background: rgb(254, 75, 227);
+}
+
+.progresber-video {
+    display: flex;
+    align-items: center;
+    padding: 51px 20px;
+}
+
+.videos video {
+    width: 100%;
+}
+
+.quizVideo {
+    background: blue;
+    position: absolute;
+    top: 36%;
+    left: 61%;
+    display: none;
+
+}
+
+.videoIcon {
+    /* padding: 10px; */
+    background: blue;
+    border-radius: 100%;
+    height: 34px;
+    width: 35px;
+    cursor: pointer;
+    position: relative;
+    animation: videoIconAni infinite;
+}
+
+.icon {
+    position: absolute;
+    top: 11%;
+    left: 27%;
+}

@@ -1,0 +1,239 @@
+form.userPost {
+    background: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+form.userPost .usermoment input,
+form.userPost .postuserImg input {
+    width: 205px;
+    height: 25px;
+    font-size: 12px;
+    border: none;
+    background: #cfcfcf6e;
+}
+
+.usermoment {
+    display: flex;
+}
+
+.usermoment,
+.postuserImg {
+    padding: 3px;
+
+
+}
+
+form.userPost button {
+
+    display: none;
+}
+
+
+
+.userpostmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+form.userPost .userAccountImg,
+.userAccount,
+.me {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+form.userPost .userAccountImg img,
+.topPost .userAccount img {
+    width: 100%;
+    height: 100%;
+}
+
+.userPostIcon {
+    padding: 0px 52px;
+    color: #3a3a3a;
+    font-family: auto;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+
+.photoIcon,
+.videoIcon,
+.textIcon {
+    padding: 6px;
+}
+
+.userPostIcon:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.userPostArea {
+    background: white;
+    padding: 13px;
+    border-radius: 6px;
+    margin: 10px 0px;
+}
+
+.PostuserImgName {
+    display: flex;
+    align-items: center;
+}
+
+.usernameTime p {
+    color: #101010;
+}
+
+.postTopInfo {
+    text-align: left;
+}
+
+.postTopInfo span {
+    font-size: 11px;
+    color: #686868;
+}
+
+.post {
+    background: white;
+    width: auto;
+    padding-top: 12px;
+    box-shadow: 0px 1px 2px -1px #00000080;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.postTopber {
+    padding: 8px 10px;
+}
+
+.usernameTime p {
+    text-align: left;
+}
+
+.postMessage p {
+    text-align: left;
+    padding: 6px;
+    color: black;
+    font-family: ui-serif;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+.postimg {
+
+    height: 357px;
+}
+
+.postimg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.posticon {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.me img {
+    width: 100%;
+    height: 100%;
+}
+
+.hover {
+    padding: 0px 10px;
+    margin: 10px;
+    color: #2c2c2c;
+    font-family: none;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.customStyle {
+    margin: 2px 10px;
+}
+
+.hover:hover {
+    color: blue;
+}
+
+.meMenu {
+    display: flex;
+    align-content: center;
+}
+
+.moreOption {
+
+    width: 18px;
+    height: 14px;
+    color: black;
+    transform: rotate(90deg);
+    margin-top: 6px;
+}
+
+Custom Scroll Bar CSS::-webkit-scrollbar {
+    width: 0.9vw;
+    background: #777;
+}
+
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(transparent, #30ff00);
+    background: linear-gradient(transparent, #30ff00);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+Custom Scroll Bar Hover CSS::-webkit-scrollbar-thumb:hover {
+    background: -webkit-linear-gradient(transparent, #00c6ff);
+    background: linear-gradient(transparent, #00c6ff);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* My Web Site add css scroll style */
+
+.mineStore::-webkit-scrollbar {
+    width: 0.9vw;
+    background: rgb(202, 202, 202);
+    height: 20px;
+}
+
+.mineStore::-webkit-scrollbar-thumb {
+    background: rgb(207, 207, 207);
+
+}

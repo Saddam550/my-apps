@@ -1,0 +1,34 @@
+.bgColor {
+    background: linear-gradient(90deg, #ffffff00, #9fa2f59e);    
+
+    height: 1000px;
+    padding: 72px 0px;
+}
+.Login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.loginImg {
+    height: 500px;
+    width: 37%;
+}
+
+.loginImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.LoginFrom input {
+    margin: 36px;
+    height: 40px;
+}
+
+.LoginFrom button {
+   background: skyblue;
+   width: 150px;
+   border-radius: 5px;
+   font-size: 20px;
+}
