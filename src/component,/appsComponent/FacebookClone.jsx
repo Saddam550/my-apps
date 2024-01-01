@@ -19,9 +19,8 @@ const getData= (loginData)=>{
 
 }
 
-let data = new Date() 
-let curruntTime = data.toLocaleTimeString() 
-
+let data = new Date()
+let curruntTime = data.getMinutes()
   const user = userLoginData
 
   return (

@@ -1398,6 +1398,11 @@ span.rightClose {
 
 .feed {
     display: flex;
+    margin-top: 40px;
+}
+
+.Account .AccountName p {
+    margin: 10px 6px;
 }
 
 /* News Site CSS Start  */

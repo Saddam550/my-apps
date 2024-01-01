@@ -43,7 +43,6 @@ import FQACollapse from './component,/appsComponent/FQACollapse';
 import HoverBroard from './component,/appsComponent/HoverBroard';
 import ImageCarousel from './component,/appsComponent/ImageCarousel';
 import ImageFeed from './component,/appsComponent/ImageFeed';
-import MovieApp from './component,/appsComponent/MovieApp';
 import NodeApps from './component,/appsComponent/NodeApps';
 import PasswordCan from './component,/appsComponent/PasswordCan';
 import Pokedok from './component,/appsComponent/Pokedok';
@@ -57,7 +56,7 @@ import StopWatch from './component,/appsComponent/StopWatch';
 import ThemeClock from './component,/appsComponent/ThemeClock';
 import ToastNotifcation from './component,/appsComponent/ToastNotifcation';
 
-import { AuthProvider } from './assets/AuthContext';
+
 import BookOrder from './component,/appsComponent/allValue/EbookComponents/BookOrder';
 import ConfromOrder from './component,/appsComponent/allValue/EbookComponents/ConfromOrder';
 
@@ -73,10 +72,12 @@ function App() {
 
 
 <BrowserRouter>
+{/* <QuizApps /> */}
+
     <Routes>
 
  
-    <Route path="/" element={<Layout />}>
+    <Route path="/Layout" index element={<Layout />}>
             <Route path="home" element= {<Home />} />
             <Route path='Blogs' element={<Blogs />} />
             <Route path="/contact" element={<Contact />} />
@@ -85,31 +86,35 @@ function App() {
 
             <Route path="../appsComponent/BlurryLoading" element={<BlurryLoding />} />             
             <Route path="../appsComponent/Calculator" element={<Calculator/>}  /> 
+			 
             <Route path="../appsComponent/ChatApps" element={<ChatApps />} />  
+			    
             <Route path="../appsComponent/ChessGame" element={<ChessGame />} />  
             <Route path="../appsComponent/ColorPikker" element={<ColorPikker />} />  
             <Route  path="../appsComponent/DrinkWater"   element={<DrinkWater />} />  
             <Route path="../appsComponent/EbookSite" element={<EbookSite />} /> 
             {/* <Route index element={<EbookSite />} />  */}
             <Route path="../appsComponent/FacebookClone" element={<FacebookClone />} />  
-            {/* <Route index element={<FacebookClone />} />   */}
-            {/* <Route index element={<FoodOrder />} />   */}
+				{ /*<Route index element={<FacebookClone />} />  */}
+          
             <Route path="../appsComponent/FoodOrder" element={<FoodOrder />} />  
+	 
             <Route path="../appsComponent/FQACollapse" element={<FQACollapse />} />  
             <Route path="../appsComponent/HoverBroard" element={<HoverBroard />} />  
             <Route path="../appsComponent/ImageCarousel" element={<ImageCarousel />} />  
             {/* <Route index element={<ImageCarousel />} />   */}
             <Route path="../appsComponent/ImageFeed" element={<ImageFeed />} /> 
-            {/* <Route index element={<MovieApp />} />   */}
-            <Route path="../appsComponent/MovieApp" element={<MovieApp />} />  
+            
+				 {/* <Route index element={<MovieApp />} />   */}
+            {/* <Route path="../appsComponent/MovieApp" element={<MovieApp />} />   */}
             <Route path="../appsComponent/NodeApps" element={<NodeApps />} />  
             <Route path="../appsComponent/PasswordCan" element={<PasswordCan />} />  
             <Route path="../appsComponent/Pokedok" element={<Pokedok />} />  
-            {/* <Route path="../appsComponent/QuizApps" element={<QuizApps />} />   */}
+            <Route path="../appsComponent/QuizApps" element={<QuizApps />} />  
                 
-   < AuthProvider>
-            <Route index element={<QuizApps />} /> 
-             </AuthProvider>
+
+          
+
             <Route path="../appsComponent/RangeSlider" element={<RangeSlider />} /> 
             <Route path="../appsComponent/ScrollAnimation" element={<ScrollAnimation />} />  
             <Route path="../appsComponent/SoundBoard" element={<SoundBoard />} />  

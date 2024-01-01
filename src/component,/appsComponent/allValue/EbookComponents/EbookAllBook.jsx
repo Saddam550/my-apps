@@ -633,7 +633,7 @@ const [bookstat, setbookstat] = useState(12)
                     // book name and book price pass to order page = state={{names:item.bookName , price:item.bookPrice}} 
 
 
-            <Link state={{names:item.bookName , price:item.bookPrice, BookImage:item.bookImg}} to="/../appsComponent/allValue/EbookComponents/BookOrder"><BookCom bookimg={item.bookImg} bookname={item.bookName} bookPrice={item.bookPrice} /></Link>
+            <Link key={index} state={{names:item.bookName , price:item.bookPrice, BookImage:item.bookImg}} to="/../appsComponent/allValue/EbookComponents/BookOrder"><BookCom bookimg={item.bookImg} bookname={item.bookName} bookPrice={item.bookPrice} /></Link>
 
                         
                     )) 

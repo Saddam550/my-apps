@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Post = (props) => {
-const {userName, userAccountIMg, postImage, timestamp, message}=props
+const {userName, userAccountIMg, postImage, timestamp, message, user}=props
 return (
 
 <div className='post'>
@@ -10,8 +10,8 @@ return (
         {/* <Avatar></Avatar> */}
         <div className="postTopber">
             <div className="PostuserImgName">
-                <div className="userAccount">
-                    <img src={userAccountIMg} alt="" srcset={userAccountIMg} />
+                <div className="userAccount" key={user}>
+                    <img src={userAccountIMg} alt=""  />
 
                 </div>
                 <div className="usernameTime">
@@ -28,7 +28,7 @@ return (
         </div>
 
         <div className="postimg">
-            <img src={postImage} alt="" srcset={postImage} />
+            <img src={postImage} alt=""  />
 
         </div>
     </div>

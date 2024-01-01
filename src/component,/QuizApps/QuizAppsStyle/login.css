@@ -1,9 +1,10 @@
 .bgColor {
-    background: linear-gradient(90deg, #ffffff00, #9fa2f59e);    
+    background: linear-gradient(90deg, #ffffff00, #9fa2f59e);
 
     height: 1000px;
     padding: 72px 0px;
 }
+
 .Login {
     display: flex;
     align-items: center;
@@ -27,8 +28,32 @@
 }
 
 .LoginFrom button {
-   background: skyblue;
-   width: 150px;
-   border-radius: 5px;
-   font-size: 20px;
+    background: skyblue;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+center.loginPageMedileArea {
+    position: absolute;
+    top: 100%;
+    left: 37%;
+    margin-top: 12%;
+}
+
+.LoginPage {
+    position: relative;
+}
+
+.loginImage {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+.loginImage img {
+    width: 100%;
+    height: 100%;
 }

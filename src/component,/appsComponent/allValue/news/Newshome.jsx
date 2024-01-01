@@ -97,6 +97,17 @@ class Newshome extends Component {
                 <option value="sg">sg</option>
                 <option value="ae">ae</option>
                 </select> 
+				<div className="menu">
+				<ul>
+				<li>Home</li>
+				<li>Home</li>
+				<li>Home</li>
+				<li>Home</li>
+				<li>Home</li>
+				<li>Home</li>
+			
+				</ul>
+				</div>
 
                     </form>
                 </div>

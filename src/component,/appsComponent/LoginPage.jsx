@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import loginImage from './allValue/pic/shirin.jpg';
+
 
 const LoginPage = (props) => {
 const [Login, setLogin] = useState()
@@ -14,11 +16,13 @@ const [Login, setLogin] = useState()
         setLogin('')
     }
     return (
-        <div>
-           <center>
-           <form  >
-           
-                <input value={Login}  onChange={onsubmits} type="text" placeholder='name...' />
+        <div className='LoginPage'>
+           <center className='loginPageMedileArea'>
+            <div className="loginImage">
+                <img src={loginImage} alt="Login loginImage" />
+            </div>
+           <form  >           
+                <input value={Login}  onChange={onsubmits} type="text" placeholder='name...' /> <br/>
                 <button onClick={LoginHendle}> Login</button>
                
             </form>
